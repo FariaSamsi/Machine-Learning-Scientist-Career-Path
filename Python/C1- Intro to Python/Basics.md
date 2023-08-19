@@ -1,11 +1,11 @@
-#Chapter 1: Python Basics
+# Chapter 1: Python Basics
 - Guido Van Russo
 - General purpose: build anything
 - Open source! Free!
 - Python packages, for Data Science
 #### ipython shell
 - runs commands interactively
-## Python scripts
+### Python scripts
 - Text files with the extension .py
 - List of Python commands that are executed
 - To add comments to the Python script, use the # tag
@@ -35,6 +35,6 @@
 - can only concatenate str with string, not "int" to str. So to concatenate an int to string, first you have to do type conversion of int to str.
 - functions such as int(), float(), str() and bool() will help you convert Python values into any type.
 
-#Chapter 2: Python Lists
+# Chapter 2: Python Lists
 
 
