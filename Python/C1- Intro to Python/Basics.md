@@ -3,23 +3,28 @@
 - General purpose: build anything
 - Open source! Free!
 - Python packages, for Data Science
+
 #### ipython shell
 - runs commands interactively
+
 ### Python scripts
 - Text files with the extension .py
 - List of Python commands that are executed
 - To add comments to the Python script, use the # tag
 - Use print() to generate output from the script
+
 ### Operations
 - Addition, subtraction: +, -
 - Multiplication, division: *,/
 - modulo: returns remainder: %
 - Exponentiation: **. This operator raises the number to its left to the power of the number to its right.
+
 ### Variables
 - variable: a specific, case-sensitive name.
 - a variable allows you to refer to a value with a name.
 - After declaring a variable, you can later call up its value by typing the variable name.
 - Variables help to make your code reproducible.
+
 ### Python data types
 - Check out the type of a value with the type function.
 - float type: Real number, can have both an integer part and a fraction part
@@ -27,10 +32,12 @@
 - String: String is Python's way of representing text.
 - bool: True or False, logical value. (The capitalization is important!).
 - For different data types, operators behave differently.
+
 ### Variable Assignment
 - x = 5
 - = in Python means assignment, it doesn't test equality!
-###Type conversion
+
+### Type conversion
 - Using the + operator to paste together two strings can be very useful in building custom messages. This is called the concatenation of string.
 - can only concatenate str with string, not "int" to str. So to concatenate an int to string, first you have to do type conversion of int to str.
 - functions such as int(), float(), str() and bool() will help you convert Python values into any type.
@@ -38,6 +45,7 @@
 # Chapter 2: Python Lists
 - int, float, str data type variables store a single value
 - In data science, we may need to work with many data points
+
 ### List
 - A list is a compound data type; you can group values together.
 - A list is a way to give a single name to a collection of values.
@@ -46,16 +54,19 @@
 - my_list = [el1, el2, el3]
 - A list can also contain a mix of Python types including strings, floats, booleans, etc.
 - A list can also contain lists inside it, a list of lists.
+
 ### Subsetting Lists
 - to access items in list index is used
 - zero indexing: index starts at 0
 - To count backward, negative indexing is used. So the last element is list[-1]
+
 ### List slicing
 - Allows you to select multiple elements from the list
 - slicing syntax: my_list[start:end] [inclusive : exclusive]
 - The start index will be included, while the end index is not.
 - [:4] means start slice from index 0
 - [4:] means include all elements up to and including the last element in the list
+
 ### Manipulating Lists
 - ways to change elements in your list, or to add elements to and remove elements from your list.
 - Replacing list elements is pretty easy. Simply subset the list and assign new values to the subset. You can select single elements or you can change entire list slices at once.
@@ -78,5 +89,19 @@
 - Separate lines:
 - command1
 - command2
+
+
+# Chapter 3: Functions and Packages
+Python offers a bunch of built-in functions to make your life as a data scientist easier. example: print(), type(), str(), int(), bool(), float(),
+The general recipe for calling functions and saving the result to a variable is thus:
+output = function_name(input)
+- len() returns the length of a list of string
+- help() returns documentation about a function
+- max() With a single iterable argument, return its biggest item. With two or more arguments, return the largest argument.
+- pow() is equivalent to base**exp with 2 arguments or base**exp % mod with 3 arguments
+- sorted(iterable, /, *, key=None, reverse=False) takes 3 arguments. Returns a new list containing all items from the iterable in ascending order. A custom key function can be supplied to customize the sort order, and the reverse flag can be set to request the result in descending order. key=None means that if you don't specify the key argument, it will be None. reverse=False means that if you don't specify the reverse argument, it will be False, by default.
+- Note: For now, we can understand an iterable as being any collection of objects, e.g., a List.
+
+
 
 
